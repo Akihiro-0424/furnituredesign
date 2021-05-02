@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 900px) {
+
+ /*-----------------------
+ PRODUCT
+ -----------------------*/
+ .product-list li {
+  width: 47%;
+ }
+
+ /*-----------------------
+ ITEM
+ ----------------------*/
+#item {
+ flex-direction: column;
+}
+
+#item .item-img {
+ width: 100%;
+ margin-bottom: 30px;
+}
+
+#item .item-text {
+ width: 100%;
+}
+
+ /*-----------------------
+ フッター 
+ ----------------------*/
+ #footer {
+  flex-direction: column;
+ }
+
+ #footer .footer-menu {
+  padding-bottom: 5px;
+ }
+}
